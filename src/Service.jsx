@@ -71,6 +71,12 @@ export default function Service() {
         <h2>Beneficios</h2>
       </div>
       <div className="cards">
+        <div className="card ">
+          <img className="img"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXt5BRlLlS2gfi8Z2f5SfYxjgr8BX7SCeuSg&s"
+            alt=""
+          />
+        </div>
         <div className="card">
           <p>Mayor claridad en el manejo de tus recursos </p>
           <p>Gestión equilibrada y transparente</p>
@@ -81,7 +87,14 @@ export default function Service() {
             Agendar una consulta
           </Link>
         </div>
+        <div className="card">
+        <img className="img"
+            src="https://www.asset.edu.au/wp-content/uploads/2021/05/picking-a-financial-advisor.jpg"
+            alt=""
+          />
+        </div>
       </div>
     </main>
   );
 }
+
