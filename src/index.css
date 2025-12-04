@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1240px;
+  display: flex;
+  flex-direction: column;
+  background: whitesmoke;
+}
+
+main {
+  width: 100%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5rem;
+  padding: 0.8rem;
+  background: whitesmoke;
+}
+
+.logo {
+  color: teal;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h2 {
+  color: teal;
+  font-size: 1.7rem;
+}
+h3 {
+  color: midnightblue;
+  font-size: 1.5rem;
+}
+h4 {
+  color: midnightblue;
+  font-size: 1.2rem;
+}
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 20px;
+  border: none;
+  background: mediumblue;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: midnightblue;
+}
+
+a {
+  color: mediumblue;
+  font-size: 1.2rem;
+}
+
+a:hover {
+  color: lightgrey;
+}
+a:active {
+  color: whitesmoke;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.main {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  width: 100%;
+  height: auto;
+  display: flex;
+  background: url("https://quasa.io/storage/images/news/N246yrSzVrKZD9HTBnjX5w6RqHq0fVtcqXVjxDZk.webp")
+    no-repeat center center;
+  background-size: cover;
+}
+
+.hero .btn{
+    padding: 0.8rem 5rem;
+      border-radius: 25px;
+    
+}
+
+.service {
+  background: url("https://astonfs.com/wp-content/uploads/2013/05/fin.sovetnik1-min-min.jpg")
+    no-repeat center center;
+    background-size: cover;
+}
+
+p{
+  font-size: 1.2rem;
+  color: black;
+}
+
+.boxHero {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  padding: 8rem 4rem;
+}
+
+.filosofia {
+  width: 100%;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid teal;
+  box-shadow: 1px 1px 1px 1px teal;
+  border-radius: 10px;
+  color: teal;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: lightgray;
+  margin-top: 3rem;
+}
+
+.up {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+  width: 100%;
+  padding: 10px;
+}
+
+.down {
+  width: 100%;
+  background: midnightblue;
+  color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  padding: 5px;
+}
