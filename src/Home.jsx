@@ -31,15 +31,15 @@ export default function Home() {
       <div className="filosofia">
         <h3>Así Podemos Ayudarte</h3>
         <div className="cards">
-          <div className="card">
+          <div className="card ver">
             <img src="src/assets/cellular-outline.svg" alt="" />
             <h4>Planificación Personal</h4>
-            <p>Ayudamos a definir y alcanzar tus objetivos económicos.</p>{" "}
+            <p>Ayudamos a definir y alcanzar tus objetivos económicos.</p>
             <Link to="/service" className="btn">
               Ver Servicios
             </Link>
           </div>
-          <div className="card">
+          <div className="card ver">
             <img src="src/assets/business-outline.svg" alt="" />
             <h4>Gestión de Presupuestos</h4>
             <p>Optimiza tus ingresos y gastos para un mayor ahorro.</p>
@@ -47,7 +47,7 @@ export default function Home() {
               Ver Servicios
             </Link>
           </div>
-          <div className="card">
+          <div className="card ver">
             <img src="src/assets/1.svg" alt="" />
             <h4>Estrategias Patrimoniales</h4>
             <p>Desarrollamos un enfoque para el crecimiento de tu capital.</p>
