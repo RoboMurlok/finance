@@ -17,9 +17,9 @@ export default function Header() {
         <NavLink to="service" className={activePage}>
           Servicios
         </NavLink>
-        <Link to="service" className="btn">
+        {/* <Link to="service" className="btn">
           Inscríbete para una consulta
-        </Link>
+        </Link> */}
       </nav>
     </header>
   );
